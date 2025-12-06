@@ -3,3 +3,8 @@ Hello team!
 We’ve discussed a lot on whatsapp group and created so much together already. Now it’s time to make things official. As our professor mentioned, we should start using the Canvas discussion board , especially here GitHub for committing, pushing, and pulling our work.
 
 Let’s get everything organised and move our work to the official platforms. We’ve got this! 💪😊
+
+""""""""""""""""""""RULES for this DOC""""""""""""
+1)KEEP THIS DOCUMENT INTACTED - (do not remove any text so that we can know, who done what and when)
+2)ADD DATE-TIME ( it is not imp for everyone to record, VCS does that but for visual purpose it is good) 
+
