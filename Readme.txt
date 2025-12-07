@@ -13,6 +13,11 @@ we have a week and im sure we can workaround to get the work done on time, all w
 
 -----07/02/2025
 REQUEST:
-We have been working together as a team on this project, EVEN we have to help each other with different parts of the project to one another whenever needed.
+We have been working together as a team on this project, EVEN we have to help each other with different parts of the project whenever needed.
 as you know all that this project included following topics
 
+- Introduction & Background
+- Statistical Analysis & R Coding
+- Visualisation & Interpretation
+- Report Writing & Reviewing
+- Conclusion & Final Editing
