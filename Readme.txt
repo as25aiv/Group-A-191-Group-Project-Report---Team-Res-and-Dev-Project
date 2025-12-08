@@ -32,14 +32,14 @@ All members should contribute by rotating roles DAILY.
  Branch → Edit → Add → Commit → Pull → Push → PR
  Rules: Don’t push to main → Write clear commit messages → Don’t upload big files → Fix conflicts.
 
-@Prof recommned us to follow some rules and that are as follows
+@Prof recommend us to follow some rules and that are as follows
 
 git pull                 # Get newest team updates
 git status               # See what changed
 git add .                # Stage everything
 git commit -m "message"  # Save snapshot
 git push                 # Upload to remote repo
-.........................
+...
 		Do And Don'ts with Git
 
 Don’t start working without pulling first.
@@ -49,7 +49,8 @@ Don’t work directly on the main branch.
 Don’t make one huge commit at the end.
 Don’t keep your work only locally.
 Don’t create a messy folder structure.
-
+...
+“I have created branches for each topic. Please make sure to add your work to the correct corresponding branch. Avoid adding directly to the main branch as prof said”
 
 
 
