@@ -18,3 +18,33 @@ data <- data %>%
     )
   ) %>%
   filter(!is.na(Sex))   # keep only Male/Female rows
+age_cols <- c(
+  "Victims_Above_50_Yrs",
+  "Victims_Upto_10_15_Yrs",
+  "Victims_Upto_10_Yrs",
+  "Victims_Upto_15_18_Yrs",
+  "Victims_Upto_18_30_Yrs",
+  "Victims_Upto_30_50_Yrs"
+)
+
+data <- data %>%
+  mutate(across(
+    all_of(age_cols),
+    ~ as.numeric(ifelse(. %in% c("NULL", "", "NA"), NA, .))
+  ))
+
+str(data)
+totals_by_sex <- data %>%
+  group_by(Sex) %>%
+  summarise(
+    young_18_30   = sum(Victims_Upto_18_30_Yrs, na.rm = TRUE),
+    total_victims = sum(Victims_Total,          na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    other_ages     = total_victims - young_18_30,
+    prop_young     = young_18_30 / total_victims,
+    prop_young_pct = 100 * prop_young
+  )
+
+totals_by_sex  
