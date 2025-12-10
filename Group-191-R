@@ -1,0 +1,20 @@
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+data <- read_csv("32_Murder_victim_age_sex.csv")
+
+head(data)
+str(data)
+
+data <- data %>%
+  mutate(
+    Sex = case_when(
+      grepl("Female", Group_Name, ignore.case = TRUE) ~ "Female",
+      grepl("Male",   Group_Name, ignore.case = TRUE) ~ "Male",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(Sex))   # keep only Male/Female rows
