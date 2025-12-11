@@ -48,3 +48,23 @@ totals_by_sex <- data %>%
   )
 
 totals_by_sex  
+
+cont_table <- as.matrix(totals_by_sex[, c("young_18_30", "other_ages")])
+rownames(cont_table) <- totals_by_sex$Sex
+colnames(cont_table) <- c("Age_18_30", "Other_ages")
+
+cont_table
+
+chisq_result <- chisq.test(cont_table)
+chisq_result    # report X-squared, df, and p-value
+
+ggplot(totals_by_sex, aes(x = Sex, y = prop_young_pct)) +
+  geom_col() +
+  labs(
+    title = "Proportion of murder victims aged 18–30 by sex",
+    x     = "Sex of victim",
+    y     = "Percentage of victims aged 18–30 (%)"
+  ) +
+  ylim(0, 100) +
+  theme_minimal(base_size = 12)
+
