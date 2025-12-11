@@ -1,0 +1,108 @@
+7COM1079-0901-2025 - Team Research and Development Project
+
+
+Final report title: Male–Female Murder Victim Analysis
+Group ID: A 191
+Dataset number: DS231
+Prepared by:
+SYED ABDUL WAHAB - 24162813
+MD TAREQ HOSSAIN – 24139001
+JOHN SRI RAMOJI – 24093872
+EHSAAN NAWAZ TANOLI – 24133700
+AWAIS ARSHAD - 24092443
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+University of Hertfordshire
+Hatfield, 2025
+ 
+Contents
+1. Introduction	3
+1.1 Problem statement and research motivation	3
+1.2 The data set	3
+1.3 Research question	3
+1.4 Null hypothesis and alternative hypothesis	4
+2. Background Research	5
+2.1 Research papers	5
+2.2 Why the research question is of interest	5
+3. Visualisation	6
+3.1 Appropriate graphs for the RQ	6
+3.2 Additional information relating to understanding the data	7
+3.3 Useful information for data understanding	7
+4. Analysis	9
+4.1 Statistical test used to test the hypotheses and output	9
+4.2 Interpretation based on the p-value	9
+5. Evaluation – group’s experience at 7COM1079	10
+5.1 What went well	10
+5.2 Points for improvement	10
+5.3 Group’s time management	10
+5.4 Project’s overall judgement	10
+5.6 Comment on the GitHub log output	11
+6. Conclusions	12
+6.1 Results explained	12
+6.2 Interpretation of the results	12
+6.3 Reasons / implications for future work and limitations	12
+7. Reference List	13
+
+
+ 
+
+1. Introduction
+
+1.1 Problem statement and research motivation
+
+To make crime prevention strategies based on evidence, it's important to understand the demographic patterns of murder victims. Age and sex are consistently recognised as significant predictors of susceptibility to violent crime; however, their cumulative impact remains inadequately understood across population datasets. Studies indicate that young adults are disproportionately impacted by homicide, with victimisation rates exhibiting significant gender disparities (Smith, 2020). Determining if one gender is more susceptible to homicide between the ages of 18 and 30 could inform law enforcement priorities, community safety strategies, and resource distribution. Consequently, this study examines possible variations in the ratio of murder victims aged 18–30 by sex.
+
+1.2 The data set
+
+The dataset utilised in this study comprises state-year murder victim counts categorised by age group and gender. It includes many observations from different US states over a number of years, which lets researchers look at demographic patterns among victims. The dataset shows how many people were murdered in each state and year, as well as how many men and women were killed. This structure makes it possible to compare the percentage of victims aged 18 to 30 between men and women.
+
+1.3 Research question
+
+“Is there a difference in the proportions of murder victims aged 18–30 between males and females?”
+This study examines the disparity in the proportion of murder victims aged 18–30 between males and females within the dataset. Specifically, it seeks to ascertain whether young adults constitute a greater proportion of all murder victims within one sex relative to the other across documented state-year observations.
+
+
+1.4 Null hypothesis and alternative hypothesis
+
+H₀: There is no difference in the proportions of murder victims aged 18–30 between males and females.
+H₁: There is a difference in the proportions of murder victims aged 18–30 between males and females.
+The hypotheses examine whether the proportion of 18–30-year-old murder victims differs between males and females.
+•	Null hypothesis (H₀): There is no statistically significant difference in the proportion of murder victims aged 18–30 between males and females. In other words, age distribution among murder victims is independent of sex.
+•	Alternative hypothesis (H₁): There is a statistically significant difference in the proportion of murder victims aged 18–30 between males and females. This implies that victim age distribution differs according to sex.
+The analysis will test H₀ versus H₁ using an appropriate statistical test for the comparison of proportions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Background Research
+
+2.1 Research papers
+
+Prior research indicates that homicide risk is significantly influenced by demographic factors, with age and sex identified as the most reliable predictors. Fox and Zawitz (2019) examined national homicide reports in the United States and determined that males consistently constituted the majority of murder victims, especially within the 18–30 age demographic. Their findings underscore that young men are disproportionately vulnerable to fatal violence in comparison to women. Lauritsen and Rezey (2020) utilised victimisation data spanning several decades and indicated that gender disparities in homicide risk endure, even when accounting for geographic and socioeconomic variables. They stressed that the 18–30 age group is a crucial period in the life course, linked to increased participation in both violent offending and victimisation. Peterson and Bailey (2022) examined state-level violent crime datasets and revealed that gender disparities in murder victim age profiles differ across regions, indicating that social and environmental factors may impact risk. These studies collectively underscore the importance of examining disparities between male and female homicide victims and advocate for the investigation of whether the 18–30 age group is disproportionately represented within one gender.
+
+2.2 Why the research question is of interest
+
+Despite extensive research on homicide demographics, there is a paucity of studies concentrating on the comparative proportions of 18–30-year-old murder victims across genders utilising repeated state-level observations. Current research recognises the disproportionate prevalence of young adults among homicide victims, yet infrequently investigates whether this trend is equally pronounced for both males and females. Comprehending sex differences in young adult victimisation can enhance the precision of violence-reduction strategies and inform policymaking grounded in empirical evidence. If the ratio varies significantly between genders, this may signify disparate risk exposure and underscore the necessity for sex-specific prevention initiatives. So, it is both timely and important for society to fill this research gap.
+
